@@ -7,7 +7,7 @@ export const DEFAULT_TEMPLATE =
 export class ConsoleFormatter {
   private colorSchema = {
     error: '1;31',
-    warn: '38;5;185',
+    warn: '1;35',
     info: '1;32',
     verbose: '96',
     debug: '36',
